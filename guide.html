@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- 
+index.html 
+member.html
+gallary.html
+video.html
+blog.html
+other.html
+ -->
+<html>
+	<head>
+		<link rel="stylesheet" href="css/index.css" type="text/css" />
+		<script type="text/javascript" src="scripts/jquery.js"></script>
+		<script type="text/javascript" src="scripts/main.js"></script>
+		<meta charset="utf-8"/>
+		<title>Guide</title>
+	</head>
+	<body>
+		<div id="divmain">
+			<!-- ///START ヘッダー/// -->
+			<div id="headArea"> </div>
+			<script >
+			$(function() {
+				$("#headArea").load("header.html");
+			})
+			</script>
+			<!-- ///END ヘッダー///-->
+			<!--///START ///-->
+			<div id="mainBody">
+				<p class="menuExp">初めての方への案内やこのページ・サーバーでのルールを記載しております</p>
+
+				<div class="mainBodyArea">
+					<span class="bodyTitle">このサーバーについて</span>
+					<div>
+						<span class="bodySubTitle">対策</span>
+						<span class="bodySubText"></span>
+						<span class="bodySubTitle">みんなへ</span>
+						<span class="bodySubText"></span>
+					</div>
+				</div>
+
+				<div class="mainBodyArea  nLink">
+					<span class="bodyTitle" onclick="location.href='guide_beginner.html'">初めての方へ</span>
+					<div class="noLink">
+						<span class="bodySubTitle">対策</span>
+						<span class="bodySubText"></span>
+						<span class="bodySubTitle">みんなへ</span>
+						<span class="bodySubText"></span>
+					</div>
+				</div>
+
+				<div class="mainBodyArea  nLink">
+					<span class="bodyTitle" onclick="location.href='guide_rule.html'">サーバールール</span>
+					<div class="noLink">
+						<span class="bodySubTitle">対策</span>
+						<span class="bodySubText"></span>
+						<span class="bodySubTitle">みんなへ</span>
+						<span class="bodySubText"></span>
+					</div>
+				</div>
+			</div>
+			<!--///END ///-->
+			<!--///START フッター///-->
+			<div id="footArea"> </div>
+			<script >
+			$(function() {
+				$("#footArea").load("footer.html");
+			})
+			</script>
+			
+			<!--///END フッター///-->
+		</div>
+	</body>
+</html>	

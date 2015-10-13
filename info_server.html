@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- 
+index.html 
+member.html
+gallary.html
+video.html
+blog.html
+other.html
+ -->
+<html>
+	<head>
+		<link rel="stylesheet" href="css/index.css" type="text/css" />
+		<link rel="stylesheet" href="css/info.css" type="text/css" />
+		<script type="text/javascript" src="scripts/jquery.js"></script>
+		<script type="text/javascript" src="scripts/main.js"></script>
+		<meta charset="utf-8"/>
+		<title>サーバー情報</title>
+	</head>
+	<body>
+		<div id="divmain">
+			<!-- ///START ヘッダー/// -->			<div id="headArea"> </div>
+			<script >
+			$(function() {
+				$("#headArea").load("header.html");
+			})
+			</script>
+			<!-- ///END ヘッダー///-->
+			<!--///START ///-->
+			<div id="mainBody">
+				<div class="mainBodyArea">
+					<span class="bodyTitle">進捗ダメです</span>
+					<div class="mainBodyText">
+						<table>
+							<tbody>
+								<tr>
+									<td>Serverの準備</td>
+									<td class="now red">未定</td>
+								</tr>
+								<tr>
+									<td>Webページ作成</td>
+									<td class="now yellow">作成中</td>
+								</tr>
+								<tr>
+									<td>MCLauncher作成</td>
+									<td class="now red">未定</td>
+								</tr>
+								<tr>
+									<td>Mod作成</td>
+									<td class="now yellow">作成中</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="mainBodyArea">
+					<span class="bodyTitle">メンテナンス予定</span>
+					<div class="mainBodyText">2015/9/26 11:00~14:00</div>
+					<p>　※上記時間内の約1時間程度をメンテナンス時間とします<br>　※予告なく変更することがあります</p>
+				</div>
+			</div>
+			<!--///END ///-->
+			<!--///START フッター///-->
+			<div id="footArea"> </div>
+			<script >
+			$(function() {
+				$("#footArea").load("footer.html");
+			})
+			</script>
+			
+			<!--///END フッター///-->
+		</div>
+	</body>
+</html>	

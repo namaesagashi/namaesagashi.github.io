@@ -13,12 +13,11 @@ other.html
 		<script type="text/javascript" src="scripts/jquery.js"></script>
 		<script type="text/javascript" src="scripts/main.js"></script>
 		<meta charset="utf-8"/>
-		<title>Minecraft</title>
+		<title>Others</title>
 	</head>
 	<body>
 		<div id="divmain">
-			<!-- ///START ヘッダー/// -->
-			<div id="headArea"> </div>
+			<!-- ///START ヘッダー/// -->			<div id="headArea"> </div>
 			<script >
 			$(function() {
 				$("#headArea").load("header.html");
@@ -27,20 +26,29 @@ other.html
 			<!-- ///END ヘッダー///-->
 			<!--///START ///-->
 			<div id="mainBody">
-				<div class="mainBodyAreaR">
-					<span class="bodyTitle">新着情報</span>
-					<span class="mainBodyText nLink" onclick="location.href='info_server.html'">2015/09/11 - 定期メンテナンス予定時刻</span>
+				<div class="mainBodyArea  nLink">
+					<span class="bodyTitle" onclick="location.href='other_contact.html'">運営メンバー紹介</span>
+					<div class="noLink">
+						<span class="bodySubTitle">作成中</span>
+					</div>
+				</div>
+
+				<div class="mainBodyArea  nLink">
+					<span class="bodyTitle" onclick="location.href='other_link.html'">内部・外部リンク</span>
+					<div class="noLink">
+						<span class="bodySubTitle">作成中</span>
+					</div>
 				</div>
 			</div>
+		</div>
 			<!--///END ///-->
 			<!--///START フッター///-->
 			<div id="footArea"> </div>
-			<script>
+			<script >
 			$(function() {
 				$("#footArea").load("footer.html");
-			});
+			})
 			</script>
 			<!--///END フッター///-->
-		</div>
 	</body>
 </html>	
