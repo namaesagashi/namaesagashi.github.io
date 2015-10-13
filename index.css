@@ -1,0 +1,45 @@
+@charset 'utf-8';
+
+body{
+	width: 100%;
+	font-family: "YuGothic","Yu Gothic","Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#top {	
+	height:30%;
+	width: 100%;
+	background: -moz-linear-gradient(left, #44CCFF,#FFF 70%, #FFF);
+	background: -webkit-gradient(linear, left top, right bottom, from(#44CCFF),color-stop(0.7, #FFF), to(#FFF));
+
+}
+
+#headText  {
+	font-size: 200%;
+	font-weight: bold;
+	text-decoration: underline;
+	color: white;
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+#main {
+	margin-top:2em;
+	margin-left: 2em;
+	padding-left: 2em;
+	border-bottom: 1px solid pink;
+	width: 40%;
+	font-size: 120%;
+}
+
+#main p {
+	margin-bottom: 0.1em;
+}
+
+#foot {
+	position: absolute;
+	bottom:0;
+	right: 1em;
+	color: rgb(255,50,50);
+}
